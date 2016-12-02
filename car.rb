@@ -16,4 +16,9 @@ class Car < Vehicle
     @wheels
   end
 
+  def info
+    "the car will #{@honk},it's model year is #{@year}, the lights are at a default #{@lights}, the signal is #{@signal}, and the speed starts at #{@speed}"
+  end
+
+
 end

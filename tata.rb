@@ -2,8 +2,17 @@ require_relative 'car'
 
 class Tata < Car
 
-  def initialize
+  def initialize(year)
     super
   end
 
-end
+  def accelerate
+    @speed += 2
+  end
+
+  def brake
+    @speed -= 1.25
+  end
+
+
+end #end of Tata class
